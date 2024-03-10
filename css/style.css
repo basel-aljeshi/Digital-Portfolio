@@ -205,25 +205,20 @@ section {
   margin: auto 0;
 }
 
-.section__pic-container img {
-  width: 100%;
-  height: auto;
-}
-
 .section__text{
   align-self: center;
   text-align: center;
 }
 
-.section__text p{
-  font-weight: 600
+.section__text p {
+  font-weight: 600;
 }
 
 .section__text__p1{
   text-align: center;
 }
 
-.section__text__p1{
+.section__text__p2{
   font-size: 1.75rem;
   margin-bottom: 1rem;
 }
@@ -250,6 +245,12 @@ section {
 /* BUTTONS */
 
 .btn-container{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn{
   font-weight: 600;
   transition: all 300ms ease;
   padding: 1rem;
