@@ -1,0 +1,92 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="">
+
+  <meta property="og:title" content="">
+  <meta property="og:type" content="">
+  <meta property="og:url" content="">
+  <meta property="og:image" content="">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+
+  <title> My Portfolio</title>
+  <link rel="stylesheet" href="css/media_queries.css">
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo"> Basel AlJeshi </div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="about"> About</a></li>
+        <li><a href="experience"> Experience</a></li>
+        <li><a href="projects"> Projects</a></li>
+        <li><a href="contact"> Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav id="hamburger-nav">
+    <div class="logo"> Basel AlJeshi</div>
+    <div class="hamburger-menu">
+
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span> </span>
+        <span> </span>
+        <span> </span>
+      </div>
+
+      <div class="menu-links">
+        <li><a href="about" onclick="toggleMenu()"> About</a></li>
+        <li><a href="experience" onclick="toggleMenu()"> Experience</a></li>
+        <li><a href="projects" onclick="toggleMenu()"> Projects</a></li>
+        <li><a href="contact" onclick="toggleMenu()"> Contact</a></li>
+      </div>
+
+    </div>
+  </nav>
+
+  <section id="profile">
+
+    <div  class="section__pic-container">
+      <img src="./assets/pic/pfp.jpg" alt="Basel AlJeshi Profile Picture">
+    </div>
+
+    <div class="section__text">
+
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Basel AlJeshi</h1>
+      <p class="section__text__p2">Product Development Engineer</p>
+
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/resume/basel-resume.pdf')">Download CV</button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+      </div>
+
+      <div class="socials-container">
+        <img src="./assets/logos/linkedin.png" alt="My LinkedIn Profile"
+             class="icon" onclick="location.href='https://www.linkedin.com/in/basel-aljeshi'">
+        <img src="./assets/logos/github.png" alt="My Github Profile"
+             class="icon" onclick="location.href='https://github.com/basel-aljeshi'">
+      </div>
+
+    </div>
+
+  </section>
+
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
