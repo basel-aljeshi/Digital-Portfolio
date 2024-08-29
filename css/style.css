@@ -422,6 +422,22 @@ article .icon {
   box-sizing: border-box;
 }
 
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.skill {
+  position: relative;
+  padding: 5px 10px;
+  background-size: cover;
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
 /* CONTACT SECTION */
 
 #contact{
